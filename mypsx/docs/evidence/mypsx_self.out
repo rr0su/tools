@@ -1,0 +1,139 @@
+
+[1mVirtual Memory Intelligence — PID 2261
+[0m========================================================================================================================
+[1mVIRTUAL ADDRESS RANGE (VMA)            PROT   EX   REGION     SEGMENT ROLE                   BACKING OBJECT / NOTES  
+[0m------------------------------------------------------------------------------------------------------------------------
+[36m55c6507d1000-55c6507e8000             [0m [33mr--p  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/bin/zsh            [0m
+[36m55c6507e8000-55c650886000             [0m [33mr-xp  [0m [31mX   [0m [32mELF       [0m .text (code)                   [2m/usr/bin/zsh            [0m
+[36m55c650886000-55c6508a1000             [0m [33mr--p  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/bin/zsh            [0m
+[36m55c6508a1000-55c6508a3000             [0m [33mr--p  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/bin/zsh            [0m
+[36m55c6508a3000-55c6508a9000             [0m [33mrw-p  [0m [32mNX  [0m [32mELF       [0m .data / .bss                   [2m/usr/bin/zsh            [0m
+[36m55c6508a9000-55c6508bd000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m55c68b2e8000-55c68b501000             [0m [33mrw-p  [0m [32mNX  [0m [1m[33mHEAP      [0m dynamic allocations (brk/mmap) [2m[heap]                  [0m
+[36m7f368de00000-7f368e0ad000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/share/zsh/functions/Completion/Unix.zwc[0m
+[36m7f368e172000-7f368e175000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/computil.so[0m
+[36m7f368e175000-7f368e183000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/computil.so[0m
+[36m7f368e183000-7f368e185000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/computil.so[0m
+[36m7f368e185000-7f368e186000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/computil.so[0m
+[36m7f368e186000-7f368e187000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/computil.so[0m
+[36m7f368e187000-7f368e1ae000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/share/zsh/functions/Completion/Zsh.zwc[0m
+[36m7f368e1c9000-7f368e1cd000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complist.so[0m
+[36m7f368e1cd000-7f368e1d8000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complist.so[0m
+[36m7f368e1d8000-7f368e1d9000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complist.so[0m
+[36m7f368e1d9000-7f368e1da000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complist.so[0m
+[36m7f368e1da000-7f368e1db000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complist.so[0m
+[36m7f368e1db000-7f368e200000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/share/zsh/functions/Completion/Base.zwc[0m
+[36m7f368e200000-7f368e4ec000             [0m [33mr--p  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/lib/locale/locale-archive[0m
+[36m7f368e4f2000-7f368e50c000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/share/zsh/functions/Misc.zwc[0m
+[36m7f368e50c000-7f368e50d000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/stat.so[0m
+[36m7f368e50d000-7f368e50f000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/stat.so[0m
+[36m7f368e50f000-7f368e510000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/stat.so[0m
+[36m7f368e510000-7f368e511000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/stat.so[0m
+[36m7f368e511000-7f368e512000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/stat.so[0m
+[36m7f368e514000-7f368e515000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/regex.so[0m
+[36m7f368e515000-7f368e516000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/regex.so[0m
+[36m7f368e516000-7f368e517000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/regex.so[0m
+[36m7f368e517000-7f368e518000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/regex.so[0m
+[36m7f368e518000-7f368e519000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/regex.so[0m
+[36m7f368e525000-7f368e528000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/system.so[0m
+[36m7f368e528000-7f368e52a000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/system.so[0m
+[36m7f368e52a000-7f368e52b000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/system.so[0m
+[36m7f368e52b000-7f368e52c000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/system.so[0m
+[36m7f368e52c000-7f368e52d000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/system.so[0m
+[36m7f368e535000-7f368e536000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zleparameter.so[0m
+[36m7f368e536000-7f368e537000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zleparameter.so[0m
+[36m7f368e537000-7f368e538000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zleparameter.so[0m
+[36m7f368e538000-7f368e539000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zleparameter.so[0m
+[36m7f368e539000-7f368e53a000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zleparameter.so[0m
+[36m7f368e53e000-7f368e556000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/share/zsh/functions/Completion.zwc[0m
+[36m7f368e556000-7f368e559000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/parameter.so[0m
+[36m7f368e559000-7f368e55e000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/parameter.so[0m
+[36m7f368e55e000-7f368e560000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/parameter.so[0m
+[36m7f368e560000-7f368e561000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/parameter.so[0m
+[36m7f368e561000-7f368e562000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/parameter.so[0m
+[36m7f368e562000-7f368e564000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so[0m
+[36m7f368e564000-7f368e569000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so[0m
+[36m7f368e569000-7f368e56a000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so[0m
+[36m7f368e56a000-7f368e56b000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so[0m
+[36m7f368e56b000-7f368e56c000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so[0m
+[36m7f368e56c000-7f368e574000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complete.so[0m
+[36m7f368e574000-7f368e58f000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complete.so[0m
+[36m7f368e58f000-7f368e592000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complete.so[0m
+[36m7f368e592000-7f368e594000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complete.so[0m
+[36m7f368e594000-7f368e595000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/complete.so[0m
+[36m7f368e595000-7f368e5ac000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zle.so[0m
+[36m7f368e5ac000-7f368e5d8000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zle.so[0m
+[36m7f368e5d8000-7f368e5e1000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zle.so[0m
+[36m7f368e5e1000-7f368e5e3000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zle.so[0m
+[36m7f368e5e3000-7f368e5ea000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zle.so[0m
+[36m7f368e5ea000-7f368e5eb000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m7f368e5ef000-7f368e5f1000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m7f368e5f1000-7f368e619000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libc.so.6[0m
+[36m7f368e619000-7f368e77e000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/libc.so.6[0m
+[36m7f368e77e000-7f368e7d4000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libc.so.6[0m
+[36m7f368e7d4000-7f368e7d8000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libc.so.6[0m
+[36m7f368e7d8000-7f368e7da000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/libc.so.6[0m
+[36m7f368e7da000-7f368e7e7000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m7f368e7e7000-7f368e7f8000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libm.so.6[0m
+[36m7f368e7f8000-7f368e875000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/libm.so.6[0m
+[36m7f368e875000-7f368e8d5000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libm.so.6[0m
+[36m7f368e8d5000-7f368e8d6000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libm.so.6[0m
+[36m7f368e8d6000-7f368e8d7000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/libm.so.6[0m
+[36m7f368e8d7000-7f368e8e6000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5[0m
+[36m7f368e8e6000-7f368e8fa000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5[0m
+[36m7f368e8fa000-7f368e908000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5[0m
+[36m7f368e908000-7f368e90c000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5[0m
+[36m7f368e90c000-7f368e90d000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/libtinfo.so.6.5[0m
+[36m7f368e90d000-7f368e910000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libcap.so.2.75[0m
+[36m7f368e910000-7f368e915000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/libcap.so.2.75[0m
+[36m7f368e915000-7f368e917000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libcap.so.2.75[0m
+[36m7f368e917000-7f368e918000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/libcap.so.2.75[0m
+[36m7f368e918000-7f368e919000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/libcap.so.2.75[0m
+[36m7f368e91c000-7f368e91d000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/terminfo.so[0m
+[36m7f368e91d000-7f368e91e000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/terminfo.so[0m
+[36m7f368e91e000-7f368e91f000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/terminfo.so[0m
+[36m7f368e91f000-7f368e920000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/terminfo.so[0m
+[36m7f368e920000-7f368e921000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/terminfo.so[0m
+[36m7f368e925000-7f368e92c000             [0m [33mr--s  [0m [32mNX  [0m [32mELF       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache[0m
+[36m7f368e92c000-7f368e932000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m7f368e932000-7f368e936000             [0m [33mr--p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[vvar]                  [0m
+[36m7f368e936000-7f368e938000             [0m [33mr--p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[vvar_vclock]           [0m
+[36m7f368e938000-7f368e93a000             [0m [33mr-xp  [0m [31mX   [0m [36mVDSO      [0m kernel helper code             [2m[vdso]                  [0m
+[36m7f368e93a000-7f368e93b000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2[0m
+[36m7f368e93b000-7f368e963000             [0m [33mr-xp  [0m [31mX   [0m [32mLIB       [0m .text (code)                   [2m/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2[0m
+[36m7f368e963000-7f368e96e000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2[0m
+[36m7f368e96e000-7f368e970000             [0m [33mr--p  [0m [32mNX  [0m [32mLIB       [0m .rodata                        [2m/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2[0m
+[36m7f368e970000-7f368e971000             [0m [33mrw-p  [0m [32mNX  [0m [32mLIB       [0m .data / .bss                   [2m/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2[0m
+[36m7f368e971000-7f368e972000             [0m [33mrw-p  [0m [32mNX  [0m [37mANON      [0m runtime / anonymous            [2m[anonymous]             [0m
+[36m7fff610af000-7fff610ff000             [0m [33mrw-p  [0m [32mNX  [0m [1m[35mSTACK     [0m call frames / saved RBP / ret addr [2m[stack]                 [0m
+
+[1mSecurity Posture Assessment
+[0m========================================================================================================================
+[32m[✓] NX Enforcement
+[0m    No writable-executable VMAs detected
+[32m[✓] Stack Protections
+[0m    Stack is RW, NX → shellcode injection blocked
+[32m[✓] Heap Protections
+[0m    Heap is RW, NX → requires UAF or logic corruption
+[32m[✓] ASLR
+[0m    Non-contiguous randomized VMAs observed
+[33m[⚠] Exploit Implications
+[0m    ROP/JOP requires memory disclosure
+
+[1mAnalyst Notes
+[0m========================================================================================================================
+• /proc/<pid>/maps reflects kernel-managed Virtual Memory Areas
+• All addresses shown are user-space virtual addresses
+• Register state (RIP/RSP/RBP) is NOT exposed via maps
+• Permission boundaries dictate exploit strategy
+• Absence of RWX significantly raises attack complexity
+
+[1mAnalysis Workflow
+[0m========================================================================================================================
+[1] Acquire VMA data  → /proc/<pid>/maps
+[2] Parse VMAs        → address, perms, backing
+[3] Classify regions  → STACK / HEAP / ELF / LIB
+[4] Inspect perms     → NX, X, RW overlaps
+[5] Infer mitigations → NX, ASLR
+[6] Derive constraints→ ROP/JOP requirements
+

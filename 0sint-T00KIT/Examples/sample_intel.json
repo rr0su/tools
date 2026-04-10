@@ -1,0 +1,5 @@
+{
+  "domain": "example.com",
+  "emails": ["alice@example.com","devops@example.com"],
+  "subdomains": ["api.example.com","dev.example.com"]
+}

@@ -1,0 +1,61 @@
+.TH MYPSX 1 "mypsx" "User Commands"
+.SH NAME
+mypsx \- inspect Linux process memory mappings with security context
+.SH SYNOPSIS
+.B mypsx
+[\-p PID] [\-h] [\-v]
+.SH DESCRIPTION
+mypsx is a Linux process introspection tool that analyzes
+kernel-exposed process memory mappings via the procfs interface.
+
+It parses /proc/<pid>/maps and presents Virtual Memory Areas (VMAs)
+with semantic classification and security-focused interpretation.
+
+The tool is designed to help reason about exploit constraints,
+memory permissions, and runtime mitigations such as NX, ASLR, and stack protections.
+
+.SH OPTIONS
+.TP
+.B \-p PID
+Inspect the memory layout of the specified process. If omitted, defaults to the current shell process.
+.TP
+.B \-h
+Display usage information and exit.
+.TP
+.B \-v
+Enable verbose output, including additional annotations for region roles and backing objects.
+
+.SH OUTPUT
+The output includes:
+.IP
+- Virtual address ranges
+.IP
+- Memory permissions (r/w/x)
+.IP
+- Executable vs NX regions
+.IP
+- Region classification (STACK, HEAP, ELF, LIB, ANON, VDSO)
+.IP
+- Security posture assessment and mitigation notes (NX, ASLR, ROP/JOP implications)
+
+.SH SECURITY NOTES
+mypsx does not read process memory and does not attach to processes.
+It relies exclusively on kernel-generated procfs data.
+It is safe to run on any process the user owns.
+
+.SH EXAMPLES
+.TP
+Run against the current shell process:
+.B mypsx
+.TP
+Run against a specific PID:
+.B mypsx -p 1234
+.TP
+Enable verbose output:
+.B mypsx -p 1234 -v
+
+.SH SEE ALSO
+proc(5), ps(1), pmap(1)
+
+.SH AUTHOR
+Roshan Gurung

@@ -1,0 +1,10 @@
+{
+  "TARGET_DOMAIN": "example.com",
+  "NEO4J": {"uri":"bolt://127.0.0.1:7687","user":"neo4j","password":"password"},
+  "MISP": {"url":"https://misp.local","key":"MISP_KEY","ssl":false},
+  "SLACK_WEBHOOK": "https://hooks.slack.com/services/XXX/YYY/ZZZ",
+  "TELEGRAM": {"api_id": 0, "api_hash": "HASH"},
+  "SHODAN_KEY": "SHODAN_API_KEY",
+  "HUNTER_KEY": "HUNTER_API_KEY",
+  "TOR_SOCKS": "socks5h://127.0.0.1:9050"
+}

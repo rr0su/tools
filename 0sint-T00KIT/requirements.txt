@@ -1,0 +1,14 @@
+requests
+pandas
+neo4j
+pymisp
+python-telegram
+telethon
+shodan
+beautifulsoup4
+tqdm
+fastapi
+uvicorn
+pyyaml
+python-dotenv
+PySocks

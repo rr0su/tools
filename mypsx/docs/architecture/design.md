@@ -1,0 +1,1 @@
+mypsx is designed to explore linux process internals by reading procfs, focusing on how process state and virtual memeory layout are represented by the kernel. Unlike traditional tools, it emphasizes stack and permission-aware memory regions relevant to debuggine and reverse engineering 
